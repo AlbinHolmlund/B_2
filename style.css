@@ -53,10 +53,6 @@ ul li:before{
 	left: 0;
 	bottom: 0;
 }
-ul li a:nth-child(2){
-	/* Extreme hack solution :( */
-   	display: table;
-}
 
 a{
 	display: inline-block;
@@ -110,6 +106,9 @@ a:hover:after{
 .sidebar a, .sidebar li:before{
 	font-style: normal;
 	color: #000;
+}
+.sidebar li .designer-name{
+	display: table;
 }
 
 /**** Intro Section ****/
